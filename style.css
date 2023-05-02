@@ -1,0 +1,434 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+body{
+     font-family: Roboto,Arial,sans-serif;
+}
+
+.grid-container {
+     display: grid;
+     grid-template-columns: auto 74% auto;
+}
+
+.grid-item {
+     background-color: rgba(255, 255, 255, 0.8);
+     padding: 10px;
+   }
+
+.grid-container0{
+     position: fixed;
+     width: 100%;
+     display: grid;
+     grid-template-columns: auto 74% auto;
+}
+
+.grid-item0{
+     background-color: white;
+     padding: 10px;
+}
+
+
+
+
+/*/* styling the navbar*/
+.navbar-css{
+     display: grid;
+     grid-template-columns: 50% 50%;
+     grid-template-rows: 50px;
+     justify-content: space-between;
+}
+.navbar-logo{
+     display: flex;
+     justify-content: flex-start;
+     
+}
+
+.logo-docplanner{
+     width: 60%; 
+     cursor: pointer;
+}
+.navbar-elements{
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     gap: 18px;  
+     
+}
+
+.navbar-item{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 15px;
+     font-weight: 600;
+     height: 100%;
+     cursor: pointer;
+}
+.navbar-item p{
+     margin: 0 auto;
+     color: rgb(151, 151, 151);
+}
+
+.navbar-item:first-child p{
+     color: #00b39b;
+}
+
+/**************** home *************/
+
+.catchy{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 40px;
+     margin-top: 20px;
+}
+
+.slogan h2{
+     color: #00b39b;
+     font-family: Work Sans,Arial,sans-serif;
+     font-weight: 300;
+}
+ /*************** about info *************/
+.info-about{
+     display: grid;
+     grid-template-columns: 48% 48%;
+     grid-template-rows: 150px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.text-info{
+     font-size: 16px;
+}
+
+.text-info p{
+     color: #747474;
+     text-align:justify;
+}
+
+/*********** why docplanner ************/
+
+.why-docplanner{
+     display: flex;
+     gap: 20px;
+}
+
+
+.my-card-body{
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content:space-between;
+     padding: 30px;
+     height: 370px;
+     color: #fff;
+     width: 350px;
+}
+
+.bg-patients{
+     background: #00b39b;
+}
+
+.bg-doctors{
+     background: #3d83df;
+}
+
+.bg-clinic{
+     background: #1b2734;
+}
+.card-info i{
+     font-size: 30px;
+}
+
+.card-info h5{
+     font-weight: 700;
+     font-size: 30px;
+     margin-bottom: 10px;
+     text-align: start;
+}
+
+.card-info p{
+     font-size: 25px;
+}
+
+.card-select-choices{
+     text-decoration: underline;
+     border: none;
+     background-color: transparent; 
+     color: inherit;
+}
+
+select option{
+     background-color: white;
+     color: black;
+   }
+
+/********************/
+.company-culture{
+     display: grid;
+     grid-template-columns: 30% 70%;
+     justify-content: space-between;
+     margin-top: 15px;
+     
+}   
+
+.company-list{
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     font-size: 0;
+     list-style: none;
+}
+
+.company-list li{
+     margin-right: 20px;
+     margin-top: 20px;
+}
+li svg{
+     width: 130px;
+     height: 30px;
+     fill: gray;
+}
+
+li img{
+     width: 110px;
+     height: 30px;
+     filter: grayscale(100%) brightness(50%) contrast(10%);
+}
+
+.global-company{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     color: #00b39b;
+     font-size: 25px;
+     font-family: Work Sans,Arial,sans-serif;
+     font-weight: 300;
+}
+
+/********* statistics ***********/
+
+.stats{
+     display: flex;
+     justify-content: space-between;
+     background: #cff9f4;
+     height: 590px;
+}
+
+.cards-stats{
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: space-between;
+     gap: 15px;
+     height: 100%;
+     margin-top: 10px;
+     padding-bottom: 20px;
+}
+.cards-left{
+     display: flex;
+     flex-direction: column;
+     justify-content: end;
+     gap: 15px;
+     height: 100%;
+}
+.cards-right{
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     height: 100%;
+}
+
+.card-stats{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 10px;
+     width: 220px;
+     height: 250px;
+     background-color: white;
+     border-radius: 8px;
+}
+.card-stats p{
+     font-size: 12px;
+     text-align:center;
+}
+
+.card-title{
+     text-align: center;
+}
+.card-title h5{
+     margin-top: 10px;
+     color: #00b39b;
+     font-family: Work Sans,Arial,sans-serif;
+     font-size: 25px;
+}
+
+.icon-stats{
+     color: #00b39b;
+     font-size: 40px;
+}
+
+.text-stats{
+     position: relative;
+     text-align: start;
+     top: 60px;
+}
+.text-stats h2{
+     color: #00b39b;
+     font-family: Work Sans,Arial,sans-serif;
+     margin-bottom: 40px;
+}
+
+.text-stats p{
+     color: gray;
+}
+
+/****** another section******/
+
+.more-stats{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+     height: 350px;
+}
+
+.more-stats p{
+     text-align: center;
+     color: gray;
+}
+.more-stats h2{
+     text-align: center;
+     color: #00b39b;
+     font-family: Work Sans,Arial,sans-serif;
+}
+
+/************ card cities **************/
+
+.cards-locations{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     gap: 20px;
+}
+
+.card-city{
+     border: 0.5px solid rgb(216, 216, 216);
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     height: auto;
+}
+
+.card-city:hover{
+     box-shadow: 0px 0px 10px 5px gray;
+}
+
+.div-image img{
+     width: 100%;
+     height: 100%;
+     border-radius: 5px 5px 0px 0px;
+}
+
+.card-description{
+     display: flex;
+     justify-content: space-around;
+     gap: 50px;
+     margin: 10px 0px;
+}
+
+.city-name{
+     color: gray;
+}
+
+.btn-card button{
+     color: white;
+     background: #3d83df;
+     border: none;
+     border-radius: 5px;
+     width: 100px;
+     height: 25px;
+     font-size: 11px;
+     padding: 5px;
+     text-align: center;
+}
+
+button{
+     cursor: pointer;
+
+}
+
+/*****/
+
+.join-us{
+     height: 150px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     margin-top: 60px;
+
+}
+
+.btn-join button{
+     color: white;
+     background: #3d83df;
+     font-family: Roboto,Arial,sans-serif;
+     border: none;
+     border-radius: 5px;
+     font-size: 13px;
+     padding: 10px 15px;
+     text-align: center;
+}
+.join-us h2{
+     color: rgb(96, 96, 96);
+     font-family: Work Sans,Arial,sans-serif;
+}
+.btn-join button:hover{
+     background: #3d83df;
+}
+
+/****** footer***********/
+
+
+
+.list-footer{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 5px;
+     
+}
+
+.list-footer li{
+     list-style: none;
+     font-size: 13px;
+}
+.list-footer p{
+     color: gray;
+     font-size: 13px;
+}
+
+.footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 60px;
+}
+
+.text-footer p {
+     text-align: center;
+     font-size: 13px;
+     margin-bottom: 5px;
+     color: gray;
+}
+.copy-right{
+     text-align: center;
+     font-size: 13px;
+     color: gray;
+}
+
+
